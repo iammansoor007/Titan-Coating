@@ -12,7 +12,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import completeData from "../src/data/completeData.json";
-import vectorimage from '../assets/therenovvector.webp'
+import vectorimage from '../assets/therenovvector.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -667,7 +667,7 @@ const KnowledgeCard = () => {
         />
 
         {/* Main Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-12 md:py-16 lg:py-20">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-6 md:py-8">
 
           {/* Desktop Layout - Two columns with floating image */}
           <div className="hidden lg:grid lg:grid-cols-2 gap-8 items-center">
@@ -751,13 +751,14 @@ const KnowledgeCard = () => {
               <motion.div
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute bottom-[-32rem] w-[85%] lg:w-[90%]"
-                style={{ right: '1%' }}
+                className="absolute bottom-[-33rem] w-[85%] lg:w-[90%]"
+
+                style={{ right: '5%' }}
               >
                 <img
                   src={faqvector}
                   alt="FAQ Support"
-                  loading="lazy"
+                  loading="eager"
                   className="w-full h-auto object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.4)] will-change-transform transform-gpu"
                 />
               </motion.div>

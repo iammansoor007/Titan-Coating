@@ -10,7 +10,7 @@ import {
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import completeData from "../src/data/completeData.json";
-import vectorimage2 from '../assets/therenovvector.webp'
+import vectorimage2 from '../assets/therenovvector.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -611,7 +611,7 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
       <div className="relative rounded-3xl overflow-hidden">
         {/* Luxury Dark-to-Graphite Background */}
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 rounded-3xl"
           style={{
             background: "linear-gradient(135deg, #111111 0%, #1A1A1A 50%, #2C2C2C 100%)",
             boxShadow: "0 25px 60px rgba(0,0,0,0.5)",
@@ -621,7 +621,7 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
 
         {/* Technical Grid Pattern */}
         <div
-          className="absolute inset-0 opacity-[0.08]"
+          className="absolute inset-0 rounded-3xl opacity-[0.08] overflow-hidden"
           style={{
             backgroundImage: `linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px)`,
             backgroundSize: '45px 45px'
@@ -629,7 +629,7 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
         />
 
         {/* Main Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-12 md:py-16 lg:py-20">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-6 md:py-8">
 
           {/* Desktop Layout - Two columns with floating image */}
           <div className="hidden lg:grid lg:grid-cols-2 gap-8 items-center">
@@ -705,13 +705,15 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
             {/* Right Column - Floating Image */}
             <div className="relative">
               <motion.div
-                className="absolute right-0 bottom-[-32rem] w-[95%] lg:w-[105%]"
-                style={{ right: '-15%' }}
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute bottom-[-33rem] w-[85%] lg:w-[90%]"
+                style={{ right: '-5%' }}
               >
                 <img
                   src={vectoroverlay}
                   alt="Titan Coatings Professional"
-                  loading="lazy"
+                  loading="eager"
                   className="w-full h-auto object-contain drop-shadow-[0_30px_60px_rgba(0,0,0,0.4)] will-change-transform transform-gpu"
                 />
               </motion.div>
