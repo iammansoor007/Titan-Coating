@@ -3,48 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Titan Coatings | Premium Concrete Coating Systems
-    </title>
+    <meta name="theme-color" content="#111111" />
+    <meta name="color-scheme" content="dark" />
+    <title>Titan Coatings | Premium Concrete Coating Systems</title>
     <meta
       name="description"
-      content="Titan Coatings specializes in high-performance polyaspartic and epoxy flooring systems for garages, patios, commercial, and industrial floors in Bunnell and Northeast Florida."
+      content="Titan Coatings specializes in high-performance polyaspartic and epoxy flooring systems for garages, patios, commercial, and industrial floors in Bunnell and Northeast Florida. Lifetime warranty. Master certified technicians."
     />
 
-    <!-- Direct High-Priority Local Font Preloads — Eliminates FOUT / Font Swapping completely -->
-    <link
-      rel="preload"
-      href="/fonts/space-grotesk-latin-400-normal.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="/fonts/space-grotesk-latin-500-normal.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      href="/fonts/space-grotesk-latin-700-normal.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
+    <!-- Preconnect to Google Fonts for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-
-    <!-- Preload hero background image to prevent color flash on hard reload -->
+    <!-- Preload critical hero background image -->
     <link
       rel="preload"
-      href="/src/assets/bgimage.png"
+      href="/src/assets/hero-bg.png"
       as="image"
       fetchpriority="high"
     />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Prevent FOUC: black background shown immediately -->
+    <style>
+      html, body { background: #111111; margin: 0; }
+      #root { min-height: 100vh; }
+    </style>
   </head>
 
   <body>
