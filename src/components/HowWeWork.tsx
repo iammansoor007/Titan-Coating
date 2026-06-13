@@ -707,7 +707,7 @@ const CTASection = memo(({ cta }: CTASectionProps) => {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute bottom-[-33rem] w-[85%] lg:w-[90%]"
+                className="absolute bottom-[-31rem] w-[85%] lg:w-[90%]"
                 style={{ right: '-5%' }}
               >
                 <img
