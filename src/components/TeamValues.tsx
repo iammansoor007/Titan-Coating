@@ -14,12 +14,7 @@ import completeData from "../src/data/completeData.json";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Images = {
-  Pattern:
-    "https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-  Studio:
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60",
-};
+
 
 const Icons = {
   Linkedin: () => (
@@ -256,25 +251,9 @@ const Leadership = () => {
 
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-b from-primary/5 to-transparent opacity-60" />
 
-      <ParallaxLayer speed={0.05} className="z-0">
-        <div className="absolute bottom-0 right-0 w-1/3 h-1/2">
-          <img
-            src={Images.Pattern}
-            alt="Heritage pattern"
-            className="w-full h-full object-cover opacity-[0.02]"
-          />
-        </div>
-      </ParallaxLayer>
 
-      <ParallaxLayer speed={0.08} className="z-0">
-        <div className="absolute top-20 left-0 w-1/4 h-1/3">
-          <img
-            src={Images.Studio}
-            alt="Studio"
-            className="w-full h-full object-cover opacity-[0.02]"
-          />
-        </div>
-      </ParallaxLayer>
+
+
 
       <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-30">
         <div className="max-w-3xl mx-auto text-center mb-20 leadership-reveal">

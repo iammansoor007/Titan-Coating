@@ -13,13 +13,7 @@ import completeData from "../src/data/completeData.json";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Images = {
-  Form: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80",
-  Pattern:
-    "https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-  Abstract:
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-};
+
 
 const Icons = {
   User: () => (
@@ -236,13 +230,13 @@ const HolographicInput = ({
         animate={
           isFocused
             ? {
-                opacity: 0.2,
-                scale: 1.05,
-              }
+              opacity: 0.2,
+              scale: 1.05,
+            }
             : {
-                opacity: isHovered ? 0.1 : 0,
-                scale: 1,
-              }
+              opacity: isHovered ? 0.1 : 0,
+              scale: 1,
+            }
         }
         className="absolute -inset-0.5 bg-gradient-to-r from-primary to-primary rounded-xl blur-lg"
         transition={{ duration: 0.3 }}
@@ -251,13 +245,12 @@ const HolographicInput = ({
       <div
         className={`
         relative flex items-center bg-card/95 backdrop-blur-sm rounded-xl border transition-all duration-500
-        ${
-          isFocused
+        ${isFocused
             ? "border-primary/50 shadow-[0_0_30px_hsl(var(--primary)/0.15)]"
             : hasValue
               ? "border-primary/30"
               : "border-border/80 hover:border-border/80"
-        }
+          }
       `}
       >
         <div
@@ -343,13 +336,13 @@ const QuantumTextarea = ({
         animate={
           isFocused
             ? {
-                opacity: 0.2,
-                scale: 1.02,
-              }
+              opacity: 0.2,
+              scale: 1.02,
+            }
             : {
-                opacity: isHovered ? 0.1 : 0,
-                scale: 1,
-              }
+              opacity: isHovered ? 0.1 : 0,
+              scale: 1,
+            }
         }
         className="absolute -inset-0.5 bg-gradient-to-r from-primary to-primary rounded-xl blur-lg"
         transition={{ duration: 0.3 }}
@@ -358,13 +351,12 @@ const QuantumTextarea = ({
       <div
         className={`
         relative flex bg-card/95 backdrop-blur-sm rounded-xl border transition-all duration-500
-        ${
-          isFocused
+        ${isFocused
             ? "border-primary/50 shadow-[0_0_30px_hsl(var(--primary)/0.15)]"
             : hasValue
               ? "border-primary/30"
               : "border-border/80 hover:border-border/80"
-        }
+          }
       `}
       >
         <div
@@ -417,10 +409,9 @@ const CrystalServiceCard = ({
       onClick={onClick}
       className={`
         relative p-5 sm:p-6 rounded-2xl cursor-pointer transition-all duration-700
-        ${
-          isSelected
-            ? "bg-gradient-to-br from-primary/5 via-card to-primary/5 shadow-2xl"
-            : "bg-card/80 backdrop-blur-sm hover:bg-card"
+        ${isSelected
+          ? "bg-gradient-to-br from-primary/5 via-card to-primary/5 shadow-2xl"
+          : "bg-card/80 backdrop-blur-sm hover:bg-card"
         }
       `}
       style={{
@@ -444,9 +435,9 @@ const CrystalServiceCard = ({
           animate={
             isHovered || isSelected
               ? {
-                  rotate: [0, 5, -5, 0],
-                  scale: 1.1,
-                }
+                rotate: [0, 5, -5, 0],
+                scale: 1.1,
+              }
               : {}
           }
           transition={{ duration: 0.5 }}
@@ -529,15 +520,15 @@ const StageIndicator = ({ currentStep }: { currentStep: number }) => {
               animate={
                 currentStep >= stage.number
                   ? {
-                      scale: 1.1,
-                      backgroundColor: "hsl(var(--primary))",
-                      borderColor: "hsl(var(--primary))",
-                    }
+                    scale: 1.1,
+                    backgroundColor: "hsl(var(--primary))",
+                    borderColor: "hsl(var(--primary))",
+                  }
                   : {
-                      scale: 1,
-                      backgroundColor: "hsl(var(--background))",
-                      borderColor: "hsl(var(--border))",
-                    }
+                    scale: 1,
+                    backgroundColor: "hsl(var(--background))",
+                    borderColor: "hsl(var(--border))",
+                  }
               }
               className={`
                 relative w-10 h-10 sm:w-14 sm:h-14 rounded-full border-2 
@@ -893,25 +884,7 @@ Locally Owned & Operated
 
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] sm:w-[1000px] h-[400px] sm:h-[500px] bg-gradient-to-b from-primary/5 to-transparent opacity-60 blur-3xl" />
 
-      <LiquidParallax speed={0.05} className="z-0">
-        <div className="absolute top-20 right-0 w-2/5 h-3/5">
-          <img
-            src={Images.Form}
-            alt=""
-            className="w-full h-full object-cover opacity-[0.03]"
-          />
-        </div>
-      </LiquidParallax>
 
-      <LiquidParallax speed={0.08} className="z-0">
-        <div className="absolute bottom-0 left-0 w-1/3 h-1/2">
-          <img
-            src={Images.Abstract}
-            alt=""
-            className="w-full h-full object-cover opacity-[0.03]"
-          />
-        </div>
-      </LiquidParallax>
 
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(20)].map((_, i) => (
@@ -1150,9 +1123,9 @@ Locally Owned & Operated
                               <p className="font-medium text-foreground text-xs sm:text-sm truncate">
                                 {formData.projectType
                                   ? projectTypes.find(
-                                      (t: any) =>
-                                        t.value === formData.projectType,
-                                    )?.label
+                                    (t: any) =>
+                                      t.value === formData.projectType,
+                                  )?.label
                                   : "—"}
                               </p>
                             </div>
@@ -1163,8 +1136,8 @@ Locally Owned & Operated
                               <p className="font-medium text-foreground text-xs sm:text-sm truncate">
                                 {formData.timeline
                                   ? timelines.find(
-                                      (t: any) => t.value === formData.timeline,
-                                    )?.label
+                                    (t: any) => t.value === formData.timeline,
+                                  )?.label
                                   : "—"}
                               </p>
                             </div>
@@ -1189,10 +1162,9 @@ Locally Owned & Operated
                     onClick={() => setFormStep(Math.max(1, formStep - 1))}
                     className={`
                       relative px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-full transition-all duration-500
-                      ${
-                        formStep === 1
-                          ? "opacity-0 pointer-events-none"
-                          : "text-muted-foreground hover:text-foreground"
+                      ${formStep === 1
+                        ? "opacity-0 pointer-events-none"
+                        : "text-muted-foreground hover:text-foreground"
                       }
                     `}
                     whileHover={{ x: -3 }}

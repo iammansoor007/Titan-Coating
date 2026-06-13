@@ -12,11 +12,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Images = {
-  Hero: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-  Detail: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80",
-  Pattern: "https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-};
 
 const Icons = {
   ArrowRight: () => (
@@ -198,27 +193,7 @@ const CTASection = () => {
       <div className="absolute top-40 -left-40 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl opacity-30" />
       <div className="absolute bottom-40 -right-40 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl opacity-30" />
 
-      <ParallaxLayer speed={0.1} className="z-0">
-        <div className="absolute top-0 right-0 w-2/5 h-full">
-          <img
-            src={Images.Hero}
-            alt="Modern architecture"
-            className="w-full h-full object-cover opacity-5"
-          />
-          <div className="absolute inset-0 bg-gradient-to-l from-background via-background to-transparent" />
-        </div>
-      </ParallaxLayer>
 
-      <ParallaxLayer speed={0.15} className="z-0">
-        <div className="absolute bottom-0 left-0 w-1/3 h-1/2">
-          <img
-            src={Images.Detail}
-            alt="Architectural detail"
-            className="w-full h-full object-cover opacity-5"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
-        </div>
-      </ParallaxLayer>
 
       <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-30">
         <div className="max-w-3xl mx-auto text-center mb-24 cta-reveal">
