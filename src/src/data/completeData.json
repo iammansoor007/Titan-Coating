@@ -1,0 +1,1161 @@
+{
+  "navbar": {
+    "services": [
+      {
+        "title": "RESIDENTIAL COATINGS",
+        "description": "Garage, patio, driveway, and pool deck coatings for homes",
+        "icon": "Home",
+        "items": [
+          "Garage Floor Coatings",
+          "Patio Coatings",
+          "Driveway Coatings",
+          "Pool Deck Coatings",
+          "Walkways"
+        ],
+        "features": [
+          "Lifetime Warranty",
+          "Fast Cure Time",
+          "UV & Chemical Resistant"
+        ]
+      },
+      {
+        "title": "COMMERCIAL COATINGS",
+        "description": "Durable floor systems for retail, warehouses, restaurants, and municipal facilities",
+        "icon": "ClipboardCheck",
+        "items": [
+          "Retail Spaces",
+          "Warehouses",
+          "Restaurants",
+          "Municipal Facilities",
+          "Office Buildings"
+        ],
+        "features": [
+          "Heavy Traffic Rated",
+          "Chemical Resistant",
+          "Minimal Downtime"
+        ]
+      },
+      {
+        "title": "INDUSTRIAL & DECORATIVE",
+        "description": "High-performance coatings for industrial floors and decorative finishes",
+        "icon": "Sun",
+        "items": [
+          "Heavy Traffic Floors",
+          "Chemical Resistant Systems",
+          "Impact Resistant Surfaces",
+          "Flake & Metallic Systems",
+          "Custom Finishes"
+        ],
+        "features": [
+          "Polyaspartic & Epoxy",
+          "Long-Lasting",
+          "Master Certified Technicians"
+        ]
+      }
+    ],
+    "companyLinks": [
+      {
+        "label": "Home",
+        "href": "#",
+        "icon": "Home"
+      },
+      {
+        "label": "About",
+        "href": "#about",
+        "icon": "Users"
+      },
+      {
+        "label": "Services",
+        "href": "#services",
+        "icon": "Briefcase"
+      },
+      {
+        "label": "Gallery",
+        "href": "#portfolio",
+        "icon": "FileText"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact",
+        "icon": "MessageSquare"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Northeast Florida",
+        "label": "Service Area",
+        "icon": "MapPin"
+      },
+      {
+        "value": "Bunnell",
+        "label": "Headquarters",
+        "icon": "Home"
+      },
+      {
+        "value": "Certified",
+        "label": "Master Technicians",
+        "icon": "Star"
+      },
+      {
+        "value": "Lifetime",
+        "label": "Warranty",
+        "icon": "Shield"
+      }
+    ],
+    "cta": {
+      "title": "Get Your Free Estimate Today",
+      "description": "Premium polyaspartic and epoxy coating systems for residential, commercial, and industrial surfaces",
+      "buttonText": "Request a Quote",
+      "buttonLink": "#contact"
+    }
+  },
+  "hero": {
+    "badge": "Premium Concrete Coating Systems",
+    "headlines": [
+      "TITAN COATINGS",
+      "Built To Last",
+      "Residential • Commercial • Industrial"
+    ],
+    "description": "Master certified technicians installing high-performance polyaspartic and epoxy flooring systems with a lifetime warranty. Strong floors. Stronger futures.",
+    "buttons": [
+      {
+        "text": "Get a Free Estimate",
+        "href": "#contact",
+        "primary": true,
+        "icon": "FiArrowRight"
+      },
+      {
+        "text": "View Services",
+        "href": "#services",
+        "primary": false,
+        "icon": "FiArrowRight"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Bunnell, FL",
+        "label": "Headquarters",
+        "icon": "FiMapPin"
+      },
+      {
+        "value": "Northeast Florida",
+        "label": "Service Area",
+        "icon": "RiBuildingLine"
+      },
+      {
+        "value": "Lifetime",
+        "label": "Warranty",
+        "icon": "FiShield"
+      },
+      {
+        "value": "Multi-Truck",
+        "label": "Fleet",
+        "icon": "FiMessageSquare"
+      }
+    ]
+  },
+  "about": {
+    "badge": "Get to Know Us",
+    "headline": {
+      "prefix": "Welcome to",
+      "highlight": "Titan Coatings",
+      "suffix": ""
+    },
+    "description": "We specialize in high-performance concrete coating systems designed to transform and protect residential, commercial, and industrial surfaces. Based in <span class=\"font-semibold text-primary\">Bunnell, Florida</span>, our certified technicians install premium polyaspartic and epoxy flooring systems engineered for durability, beauty, and long-term performance. Excellence in execution, pride in every surface.",
+    "image": {
+      "src": "TitanCoatingsCrew",
+      "alt": "Titan Coatings certified technician crew",
+      "badge": "Premium Concrete Coatings"
+    },
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "Hidden Fees"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Client Satisfaction Priority"
+      },
+      {
+        "value": "Lifetime",
+        "suffix": "",
+        "label": "Warranty"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "REQUEST A FREE ESTIMATE",
+        "href": "#contact",
+        "primary": true
+      },
+      {
+        "text": "OUR FULL STORY",
+        "href": "#about-story",
+        "primary": false
+      }
+    ],
+    "trustBadges": {
+      "founded": "",
+      "headquarters": "Bunnell, Florida"
+    }
+  },
+  "aboutStory": {
+    "badge": "Our Story",
+    "headline": {
+      "prefix": "Excellence in",
+      "highlight": "Execution",
+      "suffix": ""
+    },
+    "description": [
+      "Titan Coatings was founded by Phil Conway, a certified pressure washing professional who saw a natural connection between cleaning surfaces and protecting them. Through his experience running Elite Powerwashing, Phil learned that a truly great coating starts with a truly clean surface—and that's where Titan Coatings was born.",
+      "What began as an extension of his pressure washing services quickly grew into a standalone business focused entirely on premium polyaspartic and epoxy floor coatings. Today, Titan Coatings serves homeowners, businesses, HOAs, and municipalities across Northeast Florida with coating systems that deliver durability, beauty, and long-term value.",
+      "Phil's background in pressure washing gives Titan Coatings a unique advantage: meticulous surface preparation, an eye for detail, and a commitment to doing the job right the first time. Strong floors. Stronger futures."
+    ],
+    "image": {
+      "src": "PhilConway",
+      "alt": "Phil Conway - Owner & Founder, Titan Coatings",
+      "badge": "Owner & Founder"
+    },
+    "stats": [
+      {
+        "value": "Bunnell",
+        "suffix": ", FL",
+        "label": "Headquarters"
+      },
+      {
+        "value": "Northeast Florida",
+        "suffix": "",
+        "label": "Service Area"
+      },
+      {
+        "value": "Lifetime",
+        "suffix": "",
+        "label": "Warranty"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Our Services",
+    "headline": {
+      "prefix": "Premium",
+      "highlight": "Concrete Coating",
+      "suffix": "Systems"
+    },
+    "description": [
+      "Titan Coatings offers residential, commercial, and industrial polyaspartic and epoxy floor coating systems. From garages and patios to warehouses and restaurants, we deliver durable, beautiful results.",
+      "We also specialize in decorative flake systems, metallic floors, and concrete surface restoration—all installed by master certified technicians."
+    ],
+    "stats": [
+      {
+        "value": 3,
+        "suffix": "",
+        "label": "Core Markets"
+      },
+      {
+        "value": 12,
+        "suffix": "+",
+        "label": "Coating Systems"
+      },
+      {
+        "value": "Lifetime",
+        "suffix": "",
+        "label": "Warranty"
+      }
+    ],
+    "services": [
+      {
+        "number": "01",
+        "title": "Garage Floor Coatings",
+        "description": "Transform your garage with durable, stain-resistant polyaspartic or epoxy coatings that withstand vehicles, chemicals, and heavy use.",
+        "icon": "Home",
+        "tag": "Residential",
+        "features": [
+          "Chemical Resistant",
+          "UV Stable",
+          "Fast Cure"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Patio & Pool Deck Coatings",
+        "description": "Slip-resistant, heat-reflective coatings that beautify and protect outdoor living spaces from Florida sun and moisture.",
+        "icon": "Building2",
+        "tag": "Outdoor",
+        "features": [
+          "UV Resistant",
+          "Slip-Resistant",
+          "Cool Surface"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Commercial Floor Coatings",
+        "description": "Heavy-duty floor systems for retail, restaurants, offices, and municipal facilities with minimal business disruption.",
+        "icon": "Hammer",
+        "tag": "Commercial",
+        "features": [
+          "Trusted by Chick-fil-A",
+          "HOA & Municipal",
+          "Fast Installation"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Industrial Coatings",
+        "description": "Chemical-resistant, impact-resistant systems for warehouses, industrial floors, and high-traffic environments.",
+        "icon": "Shield",
+        "tag": "Industrial",
+        "features": [
+          "Heavy Traffic Rated",
+          "Chemical Resistant",
+          "Long-Lasting"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Decorative Flake Systems",
+        "description": "Beautiful, slip-resistant floors with decorative color flakes for garages, showrooms, and commercial spaces.",
+        "icon": "Droplets",
+        "tag": "Decorative",
+        "features": [
+          "Custom Colors",
+          "Slip-Resistant",
+          "Durable Finish"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Metallic Floors",
+        "description": "High-end, liquid metallic epoxy systems that create unique, flowing designs for luxury garages and commercial lobbies.",
+        "icon": "Wrench",
+        "tag": "Premium",
+        "features": [
+          "Custom Designs",
+          "High Gloss",
+          "Unique Finish"
+        ]
+      },
+      {
+        "number": "07",
+        "title": "Concrete Surface Restoration",
+        "description": "Repair, level, and restore damaged concrete before applying new coating systems.",
+        "icon": "Tool",
+        "tag": "Prep",
+        "features": [
+          "Crack Repair",
+          "Surface Prep",
+          "Leveling"
+        ]
+      },
+      {
+        "number": "08",
+        "title": "Epoxy Flooring Systems",
+        "description": "Classic, durable epoxy coatings for residential garages and commercial facilities requiring heavy-duty protection.",
+        "icon": "Layers",
+        "tag": "Epoxy",
+        "features": [
+          "Strong Bond",
+          "Chemical Resistant",
+          "Cost-Effective"
+        ]
+      },
+      {
+        "number": "09",
+        "title": "Polyaspartic Coatings",
+        "description": "Superior to epoxy—stronger, faster curing, UV resistant, and longer lasting. Our most recommended system.",
+        "icon": "Palette",
+        "tag": "Premium",
+        "features": [
+          "Stronger Than Epoxy",
+          "UV Resistant",
+          "1-Day Cure"
+        ]
+      },
+      {
+        "number": "10",
+        "title": "Driveway Coatings",
+        "description": "Enhance curb appeal with durable, weather-resistant driveway coatings that hide imperfections and resist stains.",
+        "icon": "Grid",
+        "tag": "Residential",
+        "features": [
+          "Weather Resistant",
+          "Stain Resistant",
+          "Custom Finishes"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Not Sure Which Coating Is Right for You?",
+      "description": "Tell us about your project and we'll recommend the best system. Contact us for your free estimate today.",
+      "buttonText": "Contact Us",
+      "buttonLink": "#contact"
+    }
+  },
+  "whyChooseUs": {
+    "section": {
+      "badge": "WHY CHOOSE US",
+      "headline": "What Makes <span class=\"text-primary\">Titan Coatings</span> Different",
+      "description": "When you need concrete floors that last, you need certified technicians, premium materials, and a warranty you can trust."
+    },
+    "features": [
+      {
+        "icon": "Award",
+        "title": "Master Certified Technicians",
+        "description": "Professionally trained coating specialists who install every system to manufacturer specifications for maximum durability."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Lifetime Warranty",
+        "description": "Long-term confidence and protection on qualifying coating installations. We stand behind every surface we coat."
+      },
+      {
+        "icon": "Globe",
+        "title": "Commercial & HOA Experience",
+        "description": "Trusted by Chick-fil-A, Dutch Bros, Palm Coast Plantation, and property managers throughout Northeast Florida."
+      },
+      {
+        "icon": "Clock",
+        "title": "Fast Installation",
+        "description": "Polyaspartic coatings cure in hours, not days. Minimal downtime for homes and businesses."
+      },
+      {
+        "icon": "Shield",
+        "title": "Premium Polyaspartic & Epoxy",
+        "description": "Industry-leading products that are stronger, UV resistant, chemical resistant, and built to last."
+      },
+      {
+        "icon": "Check",
+        "title": "Multi-Truck Fleet",
+        "description": "Large enough to handle multiple jobs simultaneously while maintaining quality and attention to detail."
+      }
+    ],
+    "stats": [
+      {
+        "value": "Northeast Florida",
+        "suffix": "",
+        "label": "Service Area"
+      },
+      {
+        "value": "Bunnell",
+        "suffix": "",
+        "label": "Based In"
+      },
+      {
+        "value": "Lifetime",
+        "suffix": "",
+        "label": "Warranty"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimate"
+      }
+    ],
+    "cta": {
+      "badge": "GET STARTED",
+      "title": "Ready to Transform <span class=\"\">Your Floors?</span>",
+      "description": "Call or text (386) 597-3016 or request your free estimate online today. Strong floors. Stronger futures.",
+      "trustBadges": [
+        "Certified",
+        "Lifetime Warranty",
+        "Premium Products"
+      ],
+      "buttons": [
+        {
+          "text": "Get Free Estimate",
+          "href": "#contact",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "section": {
+      "badge": "Our Work",
+      "headline": "Featured <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70\">Projects</span>"
+    },
+    "projects": [
+      {
+        "number": "01",
+        "title": "Palm Coast Garage Transformation",
+        "category": "Residential",
+        "image": "portfolio1",
+        "location": "Palm Coast, FL",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Polyaspartic Coating",
+        "desc": "Full garage floor coating with decorative flake system. Lifetime warranty installed."
+      },
+      {
+        "number": "02",
+        "title": "Chick-fil-A Commercial Floor",
+        "category": "Commercial",
+        "image": "portfolio2",
+        "location": "Flagler County, FL",
+        "year": "2025",
+        "accent": "from-primary to-primary/70",
+        "scope": "Epoxy System",
+        "desc": "Heavy-duty epoxy floor coating for high-traffic restaurant kitchen and dining areas."
+      },
+      {
+        "number": "03",
+        "title": "Dutch Bros Store Coating",
+        "category": "Commercial",
+        "image": "portfolio3",
+        "location": "Northeast Florida",
+        "year": "2024",
+        "accent": "from-primary/90 to-primary/60",
+        "scope": "Decorative Flake",
+        "desc": "Durable, slip-resistant floor system for coffee shop interior and service areas."
+      },
+      {
+        "number": "04",
+        "title": "Palm Coast Plantation HOA",
+        "category": "HOA",
+        "image": "portfolio4",
+        "location": "Palm Coast, FL",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Community Pool Deck",
+        "desc": "Slip-resistant pool deck coating for HOA common area."
+      },
+      {
+        "number": "05",
+        "title": "Residential Patio & Pool Deck",
+        "category": "Residential",
+        "image": "portfolio5",
+        "location": "Bunnell, FL",
+        "year": "2024",
+        "accent": "from-primary/80 to-primary/60",
+        "scope": "Cool-Tech Coating",
+        "desc": "UV-resistant, heat-reflective patio and pool deck coating."
+      }
+    ],
+    "button": {
+      "text": "View All Projects",
+      "link": "#portfolio"
+    }
+  },
+  "testimonials": {
+    "section": {
+      "badge": "Client Testimonials",
+      "headline": "What Our Customers Say",
+      "description": "Hear from residential, commercial, and HOA clients who chose Titan Coatings for their concrete coating needs.",
+      "featured": "Trusted Coating Specialist in Northeast Florida"
+    },
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Robert H.",
+        "position": "Homeowner",
+        "company": "Palm Coast",
+        "avatar": "RH",
+        "text": "Titan Coatings did my garage floor and it looks incredible. The polyaspartic coating cured in one day and the finish is perfect. Lifetime warranty gives me peace of mind."
+      },
+      {
+        "id": 2,
+        "name": "Sarah M.",
+        "position": "Property Manager",
+        "company": "Palm Coast Plantation HOA",
+        "avatar": "SM",
+        "text": "We've used Titan Coatings for multiple HOA projects. Their team is professional, on time, and the quality is outstanding. Highly recommend."
+      },
+      {
+        "id": 3,
+        "name": "Mike D.",
+        "position": "Facility Manager",
+        "company": "Commercial Client",
+        "avatar": "MD",
+        "text": "Titan coated our warehouse floors. Fast installation, minimal disruption, and the floors are holding up perfectly to forklift traffic."
+      },
+      {
+        "id": 4,
+        "name": "Jennifer C.",
+        "position": "Homeowner",
+        "company": "Flagler Beach",
+        "avatar": "JC",
+        "text": "Our pool deck was faded and rough. Titan Coatings transformed it with a beautiful slip-resistant coating. Best decision we made."
+      },
+      {
+        "id": 5,
+        "name": "Phil Conway",
+        "position": "Owner & Founder",
+        "company": "Titan Coatings",
+        "avatar": "PC",
+        "text": "I started Titan Coatings because I saw how many homeowners and businesses were dealing with stained, cracked, and failing concrete floors. With the right preparation and premium polyaspartic and epoxy systems, we deliver results that truly last. Strong floors. Stronger futures."
+      }
+    ],
+    "videos": [
+      {
+        "id": "v1",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Garage Floor Coating Installation",
+        "name": "Robert H."
+      },
+      {
+        "id": "v2",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Commercial Epoxy Flooring",
+        "name": "Mike D."
+      },
+      {
+        "id": "v3",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Pool Deck Transformation",
+        "name": "Jennifer C."
+      },
+      {
+        "id": "v4",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Polyaspartic vs Epoxy Explained",
+        "name": "Phil Conway"
+      }
+    ],
+    "stats": {
+      "reviewPlatform": "Google Reviews",
+      "satisfactionFocus": "100% Priority",
+      "totalVideos": 24
+    }
+  },
+  "faq": {
+    "section": {
+      "badge": "Knowledge Base",
+      "headline": "Frequently Asked Questions",
+      "description": "Expert answers to common questions about polyaspartic and epoxy concrete coatings."
+    },
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Questions",
+        "icon": null
+      },
+      {
+        "id": "coatings",
+        "label": "Coatings",
+        "icon": "Home"
+      },
+      {
+        "id": "warranty",
+        "label": "Warranty",
+        "icon": "Shield"
+      },
+      {
+        "id": "installation",
+        "label": "Installation",
+        "icon": "Hammer"
+      },
+      {
+        "id": "commercial",
+        "label": "Commercial",
+        "icon": "Building2"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "category": "coatings",
+        "question": "What is polyaspartic coating?",
+        "answer": "Polyaspartic is a high-performance concrete coating that is stronger than epoxy, cures in hours, resists UV damage, and lasts longer than traditional coatings. It's our most recommended system for garages, patios, and commercial floors.",
+        "metadata": [
+          {
+            "label": "Cure Time",
+            "value": "Hours, not days"
+          },
+          {
+            "label": "UV Resistant",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "coatings",
+        "question": "What's the difference between polyaspartic and epoxy?",
+        "answer": "Polyaspartic cures much faster (1 day vs 3-7 days), is more UV resistant (won't yellow in sunlight), and is generally stronger. Epoxy is still durable but better for indoor, low-UV environments.",
+        "metadata": [
+          {
+            "label": "Polyaspartic",
+            "value": "UV stable, fast cure"
+          },
+          {
+            "label": "Epoxy",
+            "value": "Cost-effective, durable"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "warranty",
+        "question": "What does the lifetime warranty cover?",
+        "answer": "Our lifetime warranty covers coating failure such as peeling, blistering, or delamination on qualifying installations. Terms and eligibility are detailed in your contract.",
+        "metadata": [
+          {
+            "label": "Coverage",
+            "value": "Peeling, blistering, delamination"
+          },
+          {
+            "label": "Transferable",
+            "value": "Check contract"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "installation",
+        "question": "How long does installation take?",
+        "answer": "Most garage floors are completed in 1-2 days. Polyaspartic coatings cure in hours, so you can walk on the surface the same day and park vehicles within 24 hours.",
+        "metadata": [
+          {
+            "label": "Typical Garage",
+            "value": "1-2 days"
+          },
+          {
+            "label": "Walkable",
+            "value": "Same day"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "commercial",
+        "question": "Do you work with HOAs and commercial clients?",
+        "answer": "Yes. We're trusted by HOAs like Palm Coast Plantation and commercial clients including Chick-fil-A and Dutch Bros. We handle everything from pool decks to restaurant floors to municipal facilities.",
+        "metadata": [
+          {
+            "label": "HOA Experience",
+            "value": "Yes"
+          },
+          {
+            "label": "Commercial",
+            "value": "Retail, restaurants, warehouses"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "installation",
+        "question": "Are your technicians certified?",
+        "answer": "Yes. Titan Coatings employs Master Certified Technicians who complete rigorous training on proper surface preparation, application techniques, and safety standards.",
+        "metadata": [
+          {
+            "label": "Certification",
+            "value": "Master Certified"
+          },
+          {
+            "label": "Training",
+            "value": "Ongoing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "category": "coatings",
+        "question": "Can you coat outdoor surfaces?",
+        "answer": "Absolutely. We offer UV-resistant polyaspartic coatings specifically designed for patios, pool decks, driveways, and walkways that withstand Florida sun and weather.",
+        "metadata": [
+          {
+            "label": "Outdoor Use",
+            "value": "Yes"
+          },
+          {
+            "label": "UV Protection",
+            "value": "Built-in"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "category": "coatings",
+        "question": "What are decorative flake systems?",
+        "answer": "Flake systems are coating finishes where colored vinyl chips are broadcast into the wet coating, creating a slip-resistant, decorative surface available in many color combinations.",
+        "metadata": [
+          {
+            "label": "Slip-Resistant",
+            "value": "Yes"
+          },
+          {
+            "label": "Custom Colors",
+            "value": "Available"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "category": "installation",
+        "question": "Do you offer free estimates?",
+        "answer": "Yes! Contact us by phone at (386) 597-3016 or through our website to schedule your free, no-obligation estimate.",
+        "metadata": [
+          {
+            "label": "Estimate",
+            "value": "Free"
+          },
+          {
+            "label": "Contact",
+            "value": "Phone or online"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "category": "warranty",
+        "question": "Is the warranty transferable if I sell my home?",
+        "answer": "Some of our warranties are transferable to new homeowners, which can add value when selling your property. Ask your estimator for specific terms.",
+        "metadata": [
+          {
+            "label": "Transferable",
+            "value": "On qualifying systems"
+          },
+          {
+            "label": "Home Value",
+            "value": "Adds equity"
+          }
+        ]
+      }
+    ],
+    "knowledgeCard": {
+      "title": "Still Have Questions?",
+      "description": "Our coating specialists are ready to help you choose the right system for your project.",
+      "buttons": [
+        {
+          "text": "Contact Our Team",
+          "href": "#contact",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "quote": {
+    "section": {
+      "badge": "GET STARTED",
+      "headline": "Request Your <span class=\"font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-primary/80\">Free Estimate Today</span>",
+      "description": "Share your project details and our team will recommend the best coating system for your needs—with a lifetime warranty available."
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Garage Floor Coatings",
+        "desc": "Polyaspartic or epoxy",
+        "icon": "⌗"
+      },
+      {
+        "id": 2,
+        "title": "Patio & Pool Deck",
+        "desc": "UV-resistant coatings",
+        "icon": "⎔"
+      },
+      {
+        "id": 3,
+        "title": "Commercial Floors",
+        "desc": "Retail, restaurants, warehouses",
+        "icon": "⌖"
+      },
+      {
+        "id": 4,
+        "title": "Industrial Coatings",
+        "desc": "Heavy traffic, chemical resistant",
+        "icon": "⌘"
+      },
+      {
+        "id": 5,
+        "title": "Decorative Flake Systems",
+        "desc": "Custom colors & finishes",
+        "icon": "⚡"
+      },
+      {
+        "id": 6,
+        "title": "Concrete Restoration",
+        "desc": "Repair & resurface",
+        "icon": "◈"
+      }
+    ],
+    "projectTypes": [
+      {
+        "value": "residential",
+        "label": "Residential"
+      },
+      {
+        "value": "commercial",
+        "label": "Commercial"
+      },
+      {
+        "value": "hoa",
+        "label": "HOA / Municipal"
+      },
+      {
+        "value": "industrial",
+        "label": "Industrial"
+      }
+    ],
+    "timelines": [
+      {
+        "value": "urgent",
+        "label": "Urgent (ASAP)"
+      },
+      {
+        "value": "standard",
+        "label": "Standard (1-2 weeks)"
+      },
+      {
+        "value": "planned",
+        "label": "Planned (1-3 months)"
+      },
+      {
+        "value": "future",
+        "label": "Future Project (3+ months)"
+      }
+    ],
+    "email": "info@TitanCoatingsUSA.com",
+    "success": {
+      "title": "Estimate Request Received",
+      "message": "Your project details have been sent to the team at Titan Coatings.",
+      "response": "We'll respond promptly to schedule your free estimate and discuss coating options.",
+      "buttonText": "Close"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "Titan Coatings",
+      "tagline": "PREMIUM CONCRETE COATING SYSTEMS",
+      "description": "Master certified technicians installing polyaspartic and epoxy floor coatings for residential, commercial, and industrial clients. Lifetime warranty available. Strong floors. Stronger futures."
+    },
+    "services": {
+      "title": "Our Services",
+      "main": [
+        {
+          "label": "Garage Floor Coatings",
+          "href": "/garage-coatings",
+          "icon": "Home"
+        },
+        {
+          "label": "Patio & Pool Deck Coatings",
+          "href": "/patio-pool-coatings",
+          "icon": "Sun"
+        },
+        {
+          "label": "Commercial Floor Coatings",
+          "href": "/commercial-coatings",
+          "icon": "Building2"
+        },
+        {
+          "label": "Industrial Coatings",
+          "href": "/industrial-coatings",
+          "icon": "Hammer"
+        },
+        {
+          "label": "Decorative Flake Systems",
+          "href": "/flake-systems",
+          "icon": "Palette"
+        },
+        {
+          "label": "Metallic Floors",
+          "href": "/metallic-floors",
+          "icon": "Star"
+        },
+        {
+          "label": "Concrete Restoration",
+          "href": "/concrete-restoration",
+          "icon": "Wrench"
+        },
+        {
+          "label": "Epoxy Flooring",
+          "href": "/epoxy",
+          "icon": "Shield"
+        },
+        {
+          "label": "Polyaspartic Coatings",
+          "href": "/polyaspartic",
+          "icon": "Check"
+        },
+        {
+          "label": "Driveway Coatings",
+          "href": "/driveway-coatings",
+          "icon": "MapPin"
+        }
+      ],
+      "materials": {
+        "title": "Service Areas",
+        "items": [
+          {
+            "label": "Bunnell, FL",
+            "href": "/bunnell"
+          },
+          {
+            "label": "Palm Coast, FL",
+            "href": "/palm-coast"
+          },
+          {
+            "label": "Daytona Beach, FL",
+            "href": "/daytona-beach"
+          },
+          {
+            "label": "St Augustine, FL",
+            "href": "/st-augustine"
+          },
+          {
+            "label": "Jacksonville, FL",
+            "href": "/jacksonville"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "info@TitanCoatingsUSA.com",
+      "phone": "+1 (386) 597-3016",
+      "address": "2323 N. State Street #138, Bunnell, Florida 32110",
+      "emergency": "",
+      "areas": "Proudly Serving Northeast Florida"
+    },
+    "certifications": [
+      {
+        "cert": "Master Certified",
+        "number": "Technicians",
+        "icon": "Award"
+      },
+      {
+        "cert": "Lifetime",
+        "number": "Warranty",
+        "icon": "Shield"
+      },
+      {
+        "cert": "Polyaspartic",
+        "number": "Premium",
+        "icon": "Check"
+      },
+      {
+        "cert": "Epoxy",
+        "number": "Systems",
+        "icon": "Star"
+      },
+      {
+        "cert": "Commercial",
+        "number": "Expertise",
+        "icon": "Building2"
+      },
+      {
+        "cert": "Free",
+        "number": "Estimate",
+        "icon": "MessageSquare"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Free Estimate",
+        "href": "#contact",
+        "icon": "Phone"
+      },
+      {
+        "label": "Lifetime Warranty",
+        "href": "#faq",
+        "icon": "Shield"
+      },
+      {
+        "label": "About Us",
+        "href": "#about",
+        "icon": "Users"
+      }
+    ],
+    "social": [
+      {
+        "platform": "Email",
+        "icon": "Mail",
+        "href": "mailto:info@TitanCoatingsUSA.com"
+      },
+      {
+        "platform": "Phone",
+        "icon": "Phone",
+        "href": "tel:+13865973016"
+      },
+      {
+        "platform": "Facebook",
+        "icon": "Facebook",
+        "href": "#"
+      },
+      {
+        "platform": "Instagram",
+        "icon": "Instagram",
+        "href": "#"
+      },
+      {
+        "platform": "LinkedIn",
+        "icon": "Linkedin",
+        "href": "#"
+      },
+      {
+        "platform": "YouTube",
+        "icon": "Youtube",
+        "href": "#"
+      },
+      {
+        "platform": "TikTok",
+        "icon": "Music",
+        "href": "#"
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2026 Titan Coatings",
+      "rights": "All rights reserved",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms"
+        },
+        {
+          "label": "Warranty Info",
+          "href": "/warranty"
+        }
+      ],
+      "tagline": "PREMIUM CONCRETE COATING SYSTEMS"
+    },
+    "marquee": {
+      "texts": [
+        "STRONG FLOORS. STRONGER FUTURES.",
+        "POLYASPARTIC • EPOXY • DECORATIVE FLAKE",
+        "LIFETIME WARRANTY • CERTIFIED TECHNICIANS"
+      ]
+    }
+  },
+  "leadership": {
+    "section": {
+      "badge": "OUR LEADERSHIP",
+      "headline": "Committed to <span class=\"text-primary\">Excellence</span>",
+      "description": "At Titan Coatings, our leadership is driven by a singular mission: to deliver premium concrete coating systems with durability, beauty, and long-term performance."
+    },
+    "ceo": {
+      "name": "Phil Conway",
+      "title": "OWNER & FOUNDER",
+      "quotes": [
+        "I started Titan Coatings because I saw how many homeowners and businesses were dealing with stained, cracked, and failing concrete floors. With the right preparation and premium polyaspartic and epoxy systems, we deliver results that truly last."
+      ],
+      "description": [
+        "Phil Conway is a certified pressure washing professional who built Titan Coatings on a simple insight: a great coating starts with a truly clean surface. Through years of running Elite Powerwashing, Phil mastered the art of surface preparation—and realized he could offer even more value by protecting the surfaces he cleaned with premium coating systems.",
+        "Today, Phil leads Titan Coatings as a trusted name in Northeast Florida for polyaspartic and epoxy floor coatings. His background in pressure washing gives the company a unique edge: meticulous attention to detail, rigorous surface prep, and a commitment to doing the job right the first time. Based in Bunnell, Florida, Phil and his team of master certified technicians serve residential, commercial, HOA, and industrial clients with pride."
+      ],
+      "social": {
+        "linkedin": "#",
+        "email": "info@TitanCoatingsUSA.com"
+      },
+      "badges": {
+        "top": "Certified Professional",
+        "bottom": "Customer Focused"
+      },
+      "alt": "Phil Conway - Owner & Founder of Titan Coatings"
+    }
+  }
+}
