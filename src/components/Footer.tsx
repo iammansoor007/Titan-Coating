@@ -771,8 +771,8 @@ const Footer = () => {
           <div className="footer-reveal space-y-6">
             {/* Logo */}
             <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-              <div style={{ width: 44, height: 44, borderRadius: "50%", background: `linear-gradient(135deg, ${GOLD}, ${DARK_GOLD})`, display: "flex", alignItems: "center", justifyContext: "center", boxShadow: `0 4px 20px ${GOLD}40` }}>
-                <span style={{ color: "#111", fontWeight: 900, fontSize: "0.75rem", fontFamily: "'Cinzel', serif", letterSpacing: "0.05em" }}>AR</span>
+              <div style={{ width: 44, height: 44, borderRadius: "50%", background: `linear-gradient(135deg, ${GOLD}, ${DARK_GOLD})`, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 4px 20px ${GOLD}40` }}>
+                <span style={{ color: "#111", fontWeight: 900, fontSize: "0.85rem", fontFamily: "'Cinzel', serif", letterSpacing: "0.05em" }}>TC</span>
               </div>
               <div>
                 <span style={{ color: "#fff", fontFamily: "'Cinzel', serif", fontSize: "1rem", fontWeight: 600, display: "block" }}>{company.name}</span>
