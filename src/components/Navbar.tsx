@@ -22,8 +22,8 @@ import {
   ClipboardCheck,
   Clock,
 } from "lucide-react";
-import logo from "../assets/therenovlogo.png";
-import logo2nd from "../assets/therenovlogo.png";
+import logo from "../assets/therenovlogo.webp";
+import logo2nd from "../assets/therenovlogo.webp";
 import completeData from "../src/data/completeData.json";
 
 const iconMap = {

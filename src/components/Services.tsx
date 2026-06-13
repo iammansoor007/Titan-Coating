@@ -6,16 +6,16 @@ import {
   Layout, Building, CheckCircle, Phone, Zap,
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
-import imgResidential from "@/assets/residental.jpg";
-import imgCommercial from "@/assets/commericail.jpg";
-import imgNewConstruction from "@/assets/newconstuction.jpg";
-import imgRoofing from "@/assets/roofing.jpg";
-import imgJanitorial from "@/assets/janotorial.jpg";
-import imgDemo from "@/assets/demo.png";
-import imgFraming from "@/assets/framing.png";
-import imgDrywall from "@/assets/drywall.png";
-import imgPainting from "@/assets/painting.png";
-import imgFlooring from "@/assets/flooring.png";
+import imgResidential from "@/assets/residental.webp";
+import imgCommercial from "@/assets/commericail.webp";
+import imgNewConstruction from "@/assets/newconstuction.webp";
+import imgRoofing from "@/assets/roofing.webp";
+import imgJanitorial from "@/assets/janotorial.webp";
+import imgDemo from "@/assets/demo.webp";
+import imgFraming from "@/assets/framing.webp";
+import imgDrywall from "@/assets/drywall.webp";
+import imgPainting from "@/assets/painting.webp";
+import imgFlooring from "@/assets/flooring.webp";
 
 const serviceImageMap: Record<string, string> = {
   "01": imgResidential,

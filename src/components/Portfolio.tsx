@@ -12,12 +12,12 @@ import {
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
 
-import residentialRoof from "@/assets/portfolio-1.jpg";
+import residentialRoof from "@/assets/portfolio-1.webp";
 import commercialRoof from "@/assets/portfolio-2.jpg";
-import roofRepair from "@/assets/portfolio-3.jpg";
-import solarInstallation from "@/assets/portfolio-4.jpg";
+import roofRepair from "@/assets/portfolio-3.webp";
+import solarInstallation from "@/assets/portfolio-4.webp";
 import flatRoof from "@/assets/portfolio-5.jpg";
-import orrRoofing from "@/assets/owner.png";
+import orrRoofing from "@/assets/owner.webp";
 
 const projectImages: Record<string, string> = {
   portfolio1: residentialRoof,
