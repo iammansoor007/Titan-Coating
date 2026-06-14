@@ -6,28 +6,28 @@ import {
   Layout, Building, CheckCircle, Phone, Zap,
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
-import imgResidential from "@/assets/residental.webp";
-import imgCommercial from "@/assets/commericail.webp";
-import imgNewConstruction from "@/assets/newconstuction.webp";
-import imgRoofing from "@/assets/roofing.webp";
-import imgJanitorial from "@/assets/janotorial.webp";
-import imgDemo from "@/assets/demo.webp";
-import imgFraming from "@/assets/framing.webp";
-import imgDrywall from "@/assets/drywall.webp";
-import imgPainting from "@/assets/painting.webp";
-import imgFlooring from "@/assets/flooring.webp";
+import imgGarageFloor from "@/assets/garagefloor.jfif";
+import imgPoolDeck from "@/assets/pooldeck.webp";
+import imgCommercialFloor from "@/assets/commercialfloor.jfif";
+import imgIndustrialFloor from "@/assets/industrialfloor.jfif";
+import imgDecorativeFlake from "@/assets/decorativefloor.jfif";
+import imgMetallicFloor from "@/assets/metallicfloor.jfif";
+import imgConcreteFloor from "@/assets/concretefloor.jfif";
+import imgEpoxyFlooring from "@/assets/epoxyflooring.webp";
+import imgPolyasparticCoating from "@/assets/polasparticcoating.jfif";
+import imgDrivewayCoating from "@/assets/drivewaycoating.jfif";
 
 const serviceImageMap: Record<string, string> = {
-  "01": imgResidential,
-  "02": imgCommercial,
-  "03": imgNewConstruction,
-  "04": imgRoofing,
-  "05": imgJanitorial,
-  "06": imgDemo,
-  "07": imgFraming,
-  "08": imgDrywall,
-  "09": imgPainting,
-  "10": imgFlooring,
+  "01": imgGarageFloor,
+  "02": imgPoolDeck,
+  "03": imgCommercialFloor,
+  "04": imgIndustrialFloor,
+  "05": imgDecorativeFlake,
+  "06": imgMetallicFloor,
+  "07": imgConcreteFloor,
+  "08": imgEpoxyFlooring,
+  "09": imgPolyasparticCoating,
+  "10": imgDrivewayCoating,
 };
 
 const iconMap: Record<string, React.ElementType> = {

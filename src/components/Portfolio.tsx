@@ -12,20 +12,20 @@ import {
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
 
-import residentialRoof from "@/assets/portfolio-1.webp";
-import commercialRoof from "@/assets/portfolio-2.jpg";
-import roofRepair from "@/assets/portfolio-3.webp";
-import solarInstallation from "@/assets/portfolio-4.webp";
-import flatRoof from "@/assets/portfolio-5.jpg";
-import orrRoofing from "@/assets/owner.webp";
+import imgGarage from "@/assets/garagefloor.jfif";
+import imgCommercial from "@/assets/commercialfloor.jfif";
+import imgDecorative from "@/assets/decorativefloor.jfif";
+import imgPoolDeck from "@/assets/pooldeck.webp";
+import imgDriveway from "@/assets/drivewaycoating.jfif";
+import imgMetallic from "@/assets/metallicfloor.jfif";
 
 const projectImages: Record<string, string> = {
-  portfolio1: residentialRoof,
-  portfolio2: commercialRoof,
-  portfolio3: roofRepair,
-  portfolio4: solarInstallation,
-  portfolio5: flatRoof,
-  portfolio6: orrRoofing,
+  portfolio1: imgGarage,
+  portfolio2: imgCommercial,
+  portfolio3: imgDecorative,
+  portfolio4: imgPoolDeck,
+  portfolio5: imgDriveway,
+  portfolio6: imgMetallic,
 };
 
 const MasonryCard = forwardRef<HTMLDivElement, { project: any; index: number }>(({ project, index }, ref) => {
@@ -33,6 +33,8 @@ const MasonryCard = forwardRef<HTMLDivElement, { project: any; index: number }>(
 
   // Varied heights for masonry feel
   const isTall = index % 3 === 0;
+
+  const resolvedImage = projectImages[project.image as keyof typeof projectImages] || projectImages.portfolio1;
 
   return (
     <motion.div
@@ -45,12 +47,15 @@ const MasonryCard = forwardRef<HTMLDivElement, { project: any; index: number }>(
       onMouseLeave={() => setIsHovered(false)}
       className="group relative mb-8 break-inside-avoid"
     >
-      <div className={`relative overflow-hidden bg-card ${isTall ? "aspect-[3/4]" : "aspect-square"}`}>
+      <div 
+        className="relative overflow-hidden bg-card w-full"
+        style={{ aspectRatio: isTall ? "3/4" : "1/1" }}
+      >
         {/* Project Image */}
         <motion.img
-          src={projectImages[project.image as keyof typeof projectImages] || projectImages.portfolio1}
+          src={resolvedImage}
           alt={project.title}
-          loading="lazy"
+          loading="eager"
           className="w-full h-full object-cover transition-transform duration-700"
           animate={{ scale: isHovered ? 1.08 : 1 }}
         />
